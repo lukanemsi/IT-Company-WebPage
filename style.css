@@ -1,0 +1,334 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Introduction section */
+.introduction {
+    padding: 3rem;
+    background: #132577;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.introduction, .introduction a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+nav a {
+    margin: 1rem;
+}
+
+/* Introduction background rectangles */
+.rectangle2 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.rectangle3 {
+    position: absolute;
+    bottom: 0%;
+    left: -5%;
+}
+
+.rectangle1 {
+    position: absolute;
+    right: 0%;
+}
+
+/* Introduction content */
+.introduction-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+}
+
+.intro-text {
+    margin-top: 6rem;
+}
+
+.intro-text * {
+    margin-top: 1rem;
+}
+
+/* Job categories */
+.job-categories {
+    margin-top: 4rem;
+}
+
+.job-header {
+    text-align: center;
+}
+
+.job-list {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.job {
+    border: 1px solid lightgray;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 3rem;
+}
+
+.job * {
+    margin-bottom: 1rem;
+}
+
+/* Job statistics */
+.job-statistics {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.job-statistics div {
+    text-align: center;
+}
+
+/* Company information */
+.company-information {
+    margin: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.info div ul {
+    display: flex;
+}
+
+.info div ul * {
+    margin: 0.7rem;
+    font-weight: bold;
+}
+
+.company-image {
+    margin-left: 2rem;
+    padding-left: 8rem;
+    padding-bottom: 2rem;
+    position: relative;
+}
+
+.company-image img:last-child {
+    position: absolute;
+    left: 0rem;
+    bottom: 0rem;
+}
+
+/* Company mission */
+.company-mission {
+    margin: 5rem;
+}
+
+.company-mission div:first-child,
+.sucessfull-clients div:first-child {
+    text-align: center;
+}
+
+.mission-statement,
+.mission-statement-content {
+    display: flex;
+    align-items: center;
+}
+
+.mission-statement-content {
+    align-items: center;
+}
+
+/* Rotate button */
+.rotate-button {
+    color: rgba(19, 37, 119, 1);
+    height: 60vh;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.rotate-button div {
+    transform: rotate(-90deg);
+}
+
+.mission-statement > div {
+    margin-right: 1rem;
+}
+
+/* Successful clients */
+.sucessfull-clients {
+    margin: 5rem;
+}
+
+.sucessfull-clients div:first-child {
+    margin-bottom: 2rem;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-rating {
+    border: 2px solid lightgray;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 4.5rem;
+    padding-bottom: 8rem;
+    margin-bottom: 4rem;
+}
+
+.client {
+    position: relative;
+    text-align: center;
+}
+
+.client-picture {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+
+.client-info {
+    margin-top: 4rem;
+}
+
+.client-rating * {
+    margin-bottom: 1rem;
+}
+
+/* Company projects */
+.company-projects {
+    display: flex;
+    margin: 5rem;
+}
+
+.project-content {
+    margin-left: 5rem;
+}
+
+.project-content * {
+    margin-top: 1rem;
+}
+
+.project-content button {
+    margin-top: 6rem;
+}
+
+/* Grid */
+.grid-tuple {
+    display: flex;
+}
+
+.grid * {
+    margin: 0.1rem;
+}
+
+/* Company experts */
+.company-experts {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.experts-content {
+    text-align: center;
+    margin: 5rem;
+}
+
+.experts-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.expert {
+    border: 1px solid lightgray;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    margin-left: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.expert-social-networks {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Footer */
+footer {
+    background: #132577;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
+.outtro {
+    background: #132577;
+    padding: 0rem 5rem 2rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > div {
+    margin: 2rem;
+}
+
+.footer-header {
+    color: rgba(146, 152, 159, 1);
+    margin-bottom: 2rem;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+}
+
+footer,
+footer a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.outtro {
+    color: rgba(146, 152, 159, 1);
+}
+
+.expert-name {
+    margin: 0.5rem;
+    color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+}
+
+.secondary-header {
+    font-weight: 600;
+    color: rgba(19, 37, 119, 1);
+    margin: 0.5rem;
+}
+
+.main-button {
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+.blue-button {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(19, 37, 119, 1);
+}
+
+.mission-statement-content div:nth-child(2) * {
+    margin-bottom: 1rem;
+}
+
+.learn-more-link::after {
+    content: " >";
+}
